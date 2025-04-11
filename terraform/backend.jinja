@@ -15,6 +15,7 @@ terraform {
       role_arn       = "{{ aft_admin_role_arn }}"
   }
 }
+}
 {% else -%}
 terraform {
     backend "remote" {
